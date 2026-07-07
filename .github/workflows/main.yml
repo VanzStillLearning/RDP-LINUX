@@ -27,8 +27,7 @@ jobs:
 
       - name: Connect to Chrome Remote Desktop
         run: |
-          DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdkVLPzAXxeS280ZomfS-G4lMtnmlb0O80fbm2X1Xwp-pnCUeaoBEORyNWQfRNtKsb0mDg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname) --pin=123456
-
+          DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdkVLPwckJEyPQU7OovbLtRlfjQ_pQA-0pVYtqsYgb8uAjn5Gpd-78QH_u2nuc5Ij5xw0Q" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname) --pin=123456
       - name: Keep Alive
         run: |
           # Menjaga server tetap aktif
